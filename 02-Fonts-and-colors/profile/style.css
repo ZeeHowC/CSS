@@ -1,0 +1,26 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+body {
+  background-color: #FFFFFA;
+  font-family: 'Open Sans', sans-serif;
+  color: blue;
+  font-size: 20px;
+  line-height: inherit;
+}
+
+h1, h2, h3 {
+  color: #353535;
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+a {
+  font-family: fantasy;
+  text-decoration: wavy;
+  color: maroon;
+  font-weight: bolder;
+  font-size: 16px;
+}
+a:hover {
+  color: #DDFFD9;
+}
