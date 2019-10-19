@@ -1,0 +1,102 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.header {
+  margin: 20px;
+}
+.header img {
+  width: 120px;
+}
+.masonry {
+  margin-left: 25px;
+  column-count: 4;
+  column-gap: 1.5em;
+}
+.item {
+  display: inline-block;
+  margin: 0 0 1.5em;
+  border-radius: 5px;
+  background-color: #de6279;
+  color: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+img {
+  max-width: 100%;
+}
+
+.pulse {
+  /*animation-duration: 3s;
+  animation-delay: 2s;*/
+}
+.item:hover {
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+}
+.item h3 {
+  text-align: center;
+}
+.item-info {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 10px;
+}
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flexbox i {
+    margin-right: 8px;
+}
+.flexbox img {
+  width: 40px;
+  border-radius: 50%;
+  padding: 0px 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  width: 75px;
+}
+
+.menu-links a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Masonry on large screens */
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    column-count: 4;
+  }
+}
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
+/* Masonry on small screens */
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+  .masonry {
+    column-count: 2;
+  }
+}
