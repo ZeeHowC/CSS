@@ -37,7 +37,7 @@ img {
 }
 .item:hover {
   animation-name: pulse;
-  animation-duration: 3s;
+  animation-duration: 30s;
   animation-delay: 0.5s;
 }
 .item h3 {
@@ -95,7 +95,7 @@ img {
 }
 
 /* Masonry on small screens */
-@media only screen and (max-width: 767px) and (min-width: 540px) {
+@media only screen and (max-width: 767px) {
   .masonry {
     column-count: 2;
   }

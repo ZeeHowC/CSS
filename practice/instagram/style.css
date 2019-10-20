@@ -1,0 +1,112 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header img {
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 13px;
+}
+
+.dis {
+  padding-left: 30px;
+  font-size: 16px;
+  color: #798894;
+}
+
+
+.menu-icon {
+  padding: 30px;
+  justify-content: center;
+}
+.user-info {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  background-color: white;
+  border-radius: 5px;
+  width: 186px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: #8080805c 1px solid;
+  padding-bottom: 17px;
+}
+.card h6 {
+  margin-top: 17px;
+  margin-bottom: -15px;
+}
+.card p {
+  font-size: small;
+  color: #798894;
+}
+.card img {
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 16px;
+  border: #798894 0.3px solid;
+
+}
+.card a {
+  padding: 6px 8px;
+  background: #4a93de;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.h1 {
+  display: block;
+}
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentpic {
+  height: 300px;
+  padding-left: 30px;
+  padding-top: 10px;
+
+}
+.masonary h6 {
+  padding-left: 108px;
+  margin-top: 2px;
+}
+.card-info {
+  display: flex;
+}
+.card-info img {
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-top: -41px;
+}
+.card-info p {
+  font-size: 0.67em;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: -4px;
+  color: grey;
+}
+
+.masonry { /* Masonry container */
+  column-count: 2;
+  column-gap: 1em;
+}
+.content1 {
+  display: inline-block;
+}
